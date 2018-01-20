@@ -6,6 +6,7 @@ body{
     width: 100vw;
     height: 100vh;
     color: black;
+    overflow: hidden;
 }
 
 a{
@@ -13,13 +14,17 @@ a{
     font-family: Open Sans;
 }
 
-form{
-    width: 80vw;
-    height: 40vh;   
-}
-
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form-border{
+    background: orange;
+    padding: 40px;
+    margin: 30px;
+    width: 60vw;
+    height: 75vh;
+    border-radius: 5px;
 }
