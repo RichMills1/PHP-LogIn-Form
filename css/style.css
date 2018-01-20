@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background: lightseagreen;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+}
+
+a{
+    color: black;
+    font-family: Open Sans;
+}
+
+form{
+    width: 80vw;
+    height: 40vh;   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
