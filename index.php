@@ -9,7 +9,7 @@
 
                 if(!empty($name) && !empty($email) && !empty($message)){
                         if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-                               $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+                               $email = filter_var($email, FILTER_SANITIZE_EMAIL );
                                $msg = 'Details submitted successfully';
                                $msgClass = 'alert-success';
                         }else {
